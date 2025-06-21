@@ -1,0 +1,97 @@
+/* ZÁKLADNÍ NASTAVENÍ */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+a {
+  color: #ff9900;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* HLAVIČKA */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #1a1a1a;
+}
+
+.logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 10px 0 5px;
+  font-size: 2.4em;
+  color: #ff9900;
+}
+
+header p {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.discord-btn {
+  display: inline-block;
+  background-color: #5865F2;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* NAVIGACE */
+nav {
+  background-color: #000;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 10px 0;
+  gap: 40px;
+}
+
+nav li a {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* HLAVNÍ OBSAH */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section h2 {
+  color: #ff9900;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}
+
+section p {
+  margin-top: 10px;
+}
+
+/* PATA */
+footer {
+  text-align: center;
+  background-color: #1a1a1a;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #888;
+  margin-top: 60px;
+}
